@@ -1,0 +1,24 @@
+{
+    "name": "cronometroapp",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "react": "18.0.0",
+      "react-native": "0.71.5"
+    },
+    "devDependencies": {
+      "@react-native-community/cli": "latest",
+      "metro-react-native-babel-preset": "0.73.0",
+      "react-native-codegen": "0.0.7"
+    },
+    "scripts": {
+      "start": "react-native start",
+      "android": "react-native run-android",
+      "ios": "react-native run-ios",
+      "test": "jest"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+  
